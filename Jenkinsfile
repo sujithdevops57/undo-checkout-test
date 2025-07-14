@@ -3,8 +3,7 @@ pipeline{
   stages{
     stage("Build"){
       steps{
-        echo "hello sujith how r u
-        how is ur java"
+        echo "hello sujith how r u"
       }
     }
   }
