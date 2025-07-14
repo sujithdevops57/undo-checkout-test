@@ -1,9 +1,12 @@
 pipeline{
-  agent {
-    stages{
-      stage("Build"){
-        echo "hello sujith and java and springboot"
+  agent any
+  stages{
+    stage("Build"){
+      steps{
+        echo "hello sujith how r u
+        how is ur java"
       }
     }
   }
 }
+ 
